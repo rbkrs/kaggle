@@ -21,4 +21,4 @@ This repository is open-source and available under the [MIT](https://choosealice
 
 - https://robkras.com/
 - https://www.kaggle.com/robkraseu
-- https://www.linkedin.com/in/robin-kras-8b4bb31bb/
+- https://www.linkedin.com/in/robin-r-p-m-kras-8b4bb31bb
