@@ -1,0 +1,47 @@
+{
+  "Final_RMSE": 26.462216722678928,
+  "Best_Ensemble_Type": "Level2_Stacking",
+  "Base_Model_RMSEs": {
+    "lgbm": 26.46345521922162,
+    "xgb": 26.464774652279335,
+    "catboost": 26.464114264984506
+  },
+  "Meta_Model_RMSEs": {
+    "Ridge": 26.462890585164807,
+    "ElasticNet": 26.462884948037065,
+    "LightGBM_Meta": 26.463073193006295
+  },
+  "Level2_RMSE": 26.462216722678928,
+  "Hyperparameters_Used": {
+    "lgbm": {
+      "n_estimators": 3128,
+      "learning_rate": 0.07606034036075258,
+      "num_leaves": 32,
+      "max_depth": 15,
+      "min_child_samples": 11,
+      "subsample": 0.7695038018665359,
+      "colsample_bytree": 0.9148924908988627,
+      "reg_alpha": 0.3053687313839587,
+      "reg_lambda": 3.141052432792816
+    },
+    "xgb": {
+      "n_estimators": 1772,
+      "learning_rate": 0.03259512389101908,
+      "max_depth": 5,
+      "min_child_weight": 1,
+      "subsample": 0.6845961752832307,
+      "colsample_bytree": 0.8607497808664172,
+      "reg_alpha": 1.103607459673809,
+      "reg_lambda": 2.994295227061194
+    },
+    "catboost": {
+      "iterations": 3453,
+      "learning_rate": 0.037404692719907554,
+      "depth": 7,
+      "min_data_in_leaf": 10,
+      "subsample": 0.8210289883481011,
+      "random_strength": 1.4929912041992202,
+      "reg_lambda": 1.3014902334452039
+    }
+  }
+}
