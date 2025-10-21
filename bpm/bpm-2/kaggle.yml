@@ -1,0 +1,18 @@
+name: kaggle
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - scikit-learn=1.2.2
+  - xgboost=2.0.3
+  - lightgbm=4.5.0
+  - catboost=1.2.8
+  - pytorch=2.6.0
+  - optuna=4.4.0
+  - shap=0.44.1
+  - pandas=2.2.3
+  - numpy=1.26.4
+  - pip
+  - pip:
+      - tensorflow==2.18.0
